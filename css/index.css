@@ -1,0 +1,91 @@
+
+body{
+    background-image: linear-gradient(to bottom, rgb(255, 86, 74), black);
+    background-repeat: no-repeat;
+    height: 1080px;
+    margin: 0;
+    color: white;
+    font-family: "Source Sans Pro";
+
+}
+.welcome{
+    border-bottom: 0.1rem solid white;
+   
+    
+}
+section{
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgb(255, 86, 74), rgb(49, 34, 34));
+    
+}
+.grid-sp{
+
+}
+.main-content{
+    
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+    max-width: 79ch;
+    
+    
+}
+/*LOGA*/
+.spoluprace{
+   
+   
+   width: 50vw;
+   
+   margin: 0;
+   padding: 0;
+   margin-left: 1rem;
+   
+}
+/*P ELEMENT*/
+.spolupraca{
+    display: block;
+    text-align: center;    
+}
+/*H1*/
+.spolupracujeme{
+   
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .main-content{
+display: flex;
+margin: 0;
+margin-left: 22vw;
+text-align: center;
+font-size: 1.2rem;
+
+
+
+
+    
+}
+.block{
+    min-width: 60ch;
+    border-right: 0.1rem solid white ;
+    padding: 1vw;
+    text-align: left;
+ 
+}
+.spolupraca{
+    min-width: 10rem;
+}
+.spoluprace{
+
+width: 15vw;
+
+
+}
+section{
+    
+}
+}
+

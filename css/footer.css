@@ -1,0 +1,31 @@
+footer{
+background-image: linear-gradient(to bottom, rgb(49, 34, 34), rgb(41, 38, 38));
+padding: 1rem;
+border-top: 0.1rem solid white;
+}
+.footer-article{
+    text-align: center;
+}
+.copy{
+    text-align: center;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.soclogos{
+    width: 5rem;
+}
+@media screen and (min-width: 600px){
+    .footer-article{
+        display: flex;
+        flex-wrap: wrap;
+       gap: 3rem ;
+       justify-content: center;
+
+    }
+    .footercontent{
+       flex-wrap: wrap;
+       gap: 3rem ;
+    }
+}

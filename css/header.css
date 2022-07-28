@@ -1,0 +1,78 @@
+header{
+    
+    display: flex   ;
+    color: white;
+    
+    height: 80vh;
+    background-image: url(../photos/banner.jpg);
+    background-repeat: no-repeat; 
+    background-position: 29% 20%;
+    
+    background-size: cover;
+    
+    
+    
+    
+}
+.logonav{
+    height: 9vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    
+}
+nav{
+
+display: flex;
+justify-content: left;
+margin: 0;
+
+
+background: rgba(0, 0, 0, 50%);
+
+   
+    width: 100vw;
+    height: 12vh;
+    padding-top: 1.25rem;
+    padding-left: 0.5rem;
+    
+    
+}
+
+
+.nav{
+    display: grid;
+grid-template-columns: 50% 1fr;
+
+
+
+margin-right: auto;
+width: 100vw;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 552px){
+    .nav{
+        display: block;
+        margin-top: 1.3rem;
+        font-weight: bold;
+        
+    }
+    .navigation{
+        margin-left: 1vw;
+        
+        position: relative;
+        
+        
+    
+    }
+}
+
+
+ 
+    
+
